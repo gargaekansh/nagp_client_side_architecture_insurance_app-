@@ -70,8 +70,8 @@ This is a micro-frontend app responsible for displaying the user's insurance det
 | **Requirement**                                    | **Status** |
 | -------------------------------------------------- | ---------- |
 | High-level design document of the application     |     Provided      |
-| Git Link to code for your application (Container app + 2 MFEs) |           |
-| Readme file with instructions                     | h          |
+| Git Link to code for your application (Container app + 2 MFEs) | https://github.com/gargaekansh/nagp_client_side_architecture_insurance_app- |
+| Readme file with instructions                     | Provided         |
 | Video recording showing all parameters (Running and hosted Containers, MFEs) | Provided          |
 
 ---
@@ -80,16 +80,14 @@ This is a micro-frontend app responsible for displaying the user's insurance det
 
 Follow the steps below to set up and run the application:
 
-- Clone or download & unzip the code.PS C:\D\Private\Nagarro\NagarroTraining\NAGP2025\ClientSideArchitectural\Assignment\src 1\src\users> npm start 
- 
-> mfe1@1.0.0 start
-> cross-env PORT=3001 webpack serve
+ - Clone the repository and open it in your IDE:
 
-<i> [webpack-dev-server] Project is running at:
-<i> [webpack-dev-server] Loopback: http://localhost:8082/
-<i> [webpack-dev-server] Content not from webpack is served from 
-assets by chunk 1.38 MiB (id hint: vendors)
-- Open the code in any IDE like Visual Studio Code.
+ ```bash
+ git clone https://github.com/gargaekansh/nagp_client_side_architecture_insurance_app-
+ cd nagp_client_side_architecture_insurance_app-
+ ```
+
+ - Open the code in any IDE like Visual Studio Code.
 - You’ll see three folders named `container`, `users`, and `insurance`.
 - Open the integrated terminal.
 - **Execute the following commands**:
