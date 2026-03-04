@@ -131,3 +131,14 @@ userdetails: 'userdetails@https://nagp-akansh-user.netlify.app/remoteEntry.js',
 insurancedetails: 'insurancedetails@https://nagp-akansh-insurance.netlify.app/remoteEntry.js',
 ```
 
+## 6. Remote Deployment Links (Netlify)
+1. Container (main app): https://nagp-akansh-container.netlify.app/
+2. Users micro-frontend: https://nagp-akansh-user.netlify.app/
+3. Insurance micro-frontend: https://nagp-akansh-insurance.netlify.app/
+
+Note: The container link is the primary entry point for the micro-frontend system. Before building the container for production, update `container/webpack.config.js` remotes to point to the Users and Insurance Netlify URLs.
+
+## 7. GitHub Repository
+
+Repository: https://github.com/gargaekansh/nagp_client_side_architecture_insurance_app-
+
