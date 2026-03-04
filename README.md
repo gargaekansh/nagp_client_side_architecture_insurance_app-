@@ -1,4 +1,3 @@
-
 # Insurance Company App 
 
 ## 1. Micro-Frontend Architecture Overview
@@ -114,4 +113,21 @@ npm start
 
 
 ## Please note, having node js and npm installed on your machine is a must to run React app.
+
+## 5. Module Federation remotes (toggle for local vs Netlify)
+
+When running the container that consumes the remotes, toggle the remotes in the container webpack config depending on where the remotes are hosted:
+
+// Uncomment these when hosting remotes locally:
+```js
+// userdetails: 'userdetails@http://localhost:3001/remoteEntry.js',
+// insurancedetails: 'insurancedetails@http://localhost:3002/remoteEntry.js',
+```
+ 
+// Uncomment these when hosting remotes on Netlify:
+
+```js
+userdetails: 'userdetails@https://nagp-akansh-user.netlify.app/remoteEntry.js',
+insurancedetails: 'insurancedetails@https://nagp-akansh-insurance.netlify.app/remoteEntry.js',
+```
 
