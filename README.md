@@ -2,7 +2,7 @@
 
 ## 1. Micro-Frontend Architecture Overview
 
-This is a POC of an insurance company app, developed using micro-frontend architecture with React. The application consists of three apps:
+This is  insurance company app, developed using micro-frontend architecture with React. The application consists of three apps:
 
 ### 1.1 Container App
 This is the shell/container application responsible for handling the user sign-in/sign-up process and loading the micro-frontends.
