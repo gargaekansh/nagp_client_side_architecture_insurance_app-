@@ -1,4 +1,3 @@
-
 # Insurance Company App 
 
 ## 1. Micro-Frontend Architecture Overview
@@ -114,4 +113,32 @@ npm start
 
 
 ## Please note, having node js and npm installed on your machine is a must to run React app.
+
+## 5. Module Federation remotes (toggle for local vs Netlify)
+
+When running the container that consumes the remotes, toggle the remotes in the container webpack config depending on where the remotes are hosted:
+
+// Uncomment these when hosting remotes locally:
+```js
+// userdetails: 'userdetails@http://localhost:3001/remoteEntry.js',
+// insurancedetails: 'insurancedetails@http://localhost:3002/remoteEntry.js',
+```
+ 
+// Uncomment these when hosting remotes on Netlify:
+
+```js
+userdetails: 'userdetails@https://nagp-akansh-user.netlify.app/remoteEntry.js',
+insurancedetails: 'insurancedetails@https://nagp-akansh-insurance.netlify.app/remoteEntry.js',
+```
+
+## 6. Remote Deployment Links (Netlify)
+1. Container (main app): https://nagp-akansh-container.netlify.app/
+2. Users micro-frontend: https://nagp-akansh-user.netlify.app/
+3. Insurance micro-frontend: https://nagp-akansh-insurance.netlify.app/
+
+Note: The container link is the primary entry point for the micro-frontend system. Before building the container for production, update `container/webpack.config.js` remotes to point to the Users and Insurance Netlify URLs.
+
+## 7. GitHub Repository
+
+Repository: https://github.com/gargaekansh/nagp_client_side_architecture_insurance_app-
 
