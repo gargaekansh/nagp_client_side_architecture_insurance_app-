@@ -1,5 +1,5 @@
 
-# Insurance Company App - Proof of Concept (POC)
+# Insurance Company App 
 
 ## 1. Micro-Frontend Architecture Overview
 
@@ -48,24 +48,11 @@ This is a micro-frontend app responsible for displaying the user's insurance det
 
 ---
 
-## 3. Requirement Checklist
 
-| **Requirement**                                   | **Status**  |
-| ------------------------------------------------- | ----------- |
-| Build container app                               | Done        |
-| Build One MFE for insurance details and premium payment | Done        |
-| Build Second MFE for user details                 | Done        |
-| Load both MFEs on container app                   | Done        |
-| Share data between containers and MFEs            | - Data being shared using local storage. <br> - Container app is passing data to MFEs dynamically. <br> - Container app sending events to MFEs. | Done        |
-| Store and Retrieve data from local storage        | Done        |
-| Add worker to one of the MFEs to do anything      | Done        |
-| Using Webpack for bundling                        | Done        |
-| Use any CSS pre-processor                         | Used SCSS loader |
-| Implement any one OWASP top 10                    | Implemented XSS (prevented cross-site scripting) |
 
 ---
 
-## 4. Delivery Checklist
+## 3. Delivery Checklist
 
 | **Requirement**                                    | **Status** |
 | -------------------------------------------------- | ---------- |
@@ -76,7 +63,7 @@ This is a micro-frontend app responsible for displaying the user's insurance det
 
 ---
 
-## 5. How to Run the App
+## 4. How to Run the App
 
 Follow the steps below to set up and run the application:
 
