@@ -20,12 +20,7 @@ This is a micro-frontend app responsible for displaying the user's insurance det
 ### 2.1 Container App
 - Seed the user and insurance data to local storage on startup.
 - Show the login page that takes an email address as input.
-- **Sign-in button** functionality:
-  - Check the email format.
-  - Sanitize the input to prevent XSS (Cross-Site Scripting) attacks (OWASP top 10).
-  - Check if the user with the given email address exists:
-    - If yes, redirect to the landing page and load the user details micro-frontend.
-    - If not, stay on the login screen and show an error message.
+
 - Show the menu sidebar with a few buttons/links.
 - Display the logged-in user's name at the top.
 - **View Profile Details** button will load the user micro-frontend app and display user details.
